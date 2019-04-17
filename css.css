@@ -1,0 +1,98 @@
+/* Coloração do título e loop de cores */
+@keyframes h1 {
+  0%   {color: red;}
+  25%  {color: yellow;}
+  50%  {color: blue;}
+  75% {color: orange;}
+  100%{color:#b3b3b3;}
+}
+/* Titúlo do jogo e loop de cores */
+h1{
+animation: h1 4s infinite;
+font-size:80px;
+display: inline-block;
+margin-bottom: 130px;
+}
+/* Fonte usada e Diretório da fonte */
+
+@font-face  {
+  font-family: "Perfect DOS VGA 437";
+  src: url("Perfect DOS VGA 437.ttf");
+}
+/* Tag dos Links */     /* Usado pra tirar a Sublinhação */
+a{
+	text-decoration: none;	
+	}
+/* Corpo do programa , imagem do background e o diretório */
+p{
+	text-decoration: none;
+}
+body{
+	background-image: url("papel1.jpg"); 
+	font-family: "Perfect DOS VGA 437";
+	text-align: center;
+}
+/* Link da 1ª Opção do Menu */
+    .jogar{
+	color: #b3b3b3;
+	font-size:48px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: inline-block;
+
+}
+/* Rotação da 1ª Opção do Menu */
+		.jogar:hover {
+	color: red;
+	transition: 1s;
+	transform: translate(40px) rotate(0deg);
+}
+
+/* Link da 2ª Opção do Menu */
+		.comojogar{
+  color: #b3b3b3;
+  font-size:45px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: inline-block;
+
+}
+/* Rotação da 2ª Opção do Menu */
+		.comojogar:hover {
+	color: yellow;
+	transition: 1s;
+	transform: translate(-40px) rotate(0deg);
+}
+/* Link da 3ª Opção do Menu */
+		.mapa{
+	color: #b3b3b3;
+	font-size:48px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: inline-block;
+}
+/* Rotação da 3ª Opção do Menu */
+		.mapa:hover {
+	color: #00FF00;
+	transition: 1s;
+	transform: translate(40px) rotate(0deg);
+}
+/* Link da 4ª Opção do Menu */
+	.sobre {
+	color: #b3b3b3;
+	font-size:48px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: inline-block;
+}
+/* Rotação da 4ª Opção do Menu */
+  .sobre:hover {
+	color: orange;
+	transition: 1s;
+	transform: translate(-40px) rotate(0deg);
+}
+.nomes{
+	color: green;
+	font-size:18px;
+	display: inline-block;
+}
