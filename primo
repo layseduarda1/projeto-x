@@ -1,0 +1,15 @@
+var a =15;
+var b = 2;
+f= false
+while(a>b && !f){
+	if(a%b == 0){
+		f=true
+	}
+	b=b+1
+
+}
+if(f) {
+	console.log("nao é primo")}
+	else {
+		console.log("é primo")
+	}
